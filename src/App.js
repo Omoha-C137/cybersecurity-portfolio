@@ -7,6 +7,7 @@ const AppContainer = styled.div`
   min-height: 100vh;
   color: #fff;
   font-family: Arial, sans-serif;
+  padding: 0 20px
 `;
 
 const MatrixBackground = styled.div`
@@ -80,21 +81,33 @@ const MainContent = styled.main`
 `;
 
 const Section = styled.section`
-  width: 80%;
+  width: 100%;
   max-width: 800px;
-  margin: 20px 0;
+  margin: 20px auto;
   background-color: rgba(0, 0, 0, 0.6);
   padding: 20px;
   border-radius: 8px;
   display: flex;
-  align-items: flex-start;
+  flex-direction: column;
+  align-items: center;
+
+  @media (min-width: 768px) {
+    flex-direction: row;
+    align-items: flex-start;
+  }
 `;
 
 const Image = styled.img`
-  width: 150px;
+  width: 100px;
   height: auto;
   border-radius: 8px;
-  margin-right: 30px;
+  margin-bottom: 20px;
+
+  @media (min-width: 768px) {
+    width: 150px;
+    margin-right: 20px;
+    margin-bottom: 0;
+  }
 `;
 
 const Footer = styled.footer`
