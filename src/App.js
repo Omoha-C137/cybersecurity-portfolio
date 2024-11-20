@@ -94,7 +94,7 @@ const Image = styled.img`
   width: 150px;
   height: auto;
   border-radius: 8px;
-  margin-right: 40px;
+  margin-right: 30px;
 `;
 
 const Footer = styled.footer`
