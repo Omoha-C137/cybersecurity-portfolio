@@ -131,7 +131,7 @@ function App() {
         <h1>Philip Omoha</h1>
       </Header>
       <Nav>
-        <NavLink href="/philip Omoha cv.pdf" download="Philip_Omoha_Resume.pdf">Resume</NavLink>
+        <NavLink href="/Philip Omoha cv.pdf" download="Philip_Omoha_Resume.pdf">Resume</NavLink>
         <NavLink href="https://www.linkedin.com/in/philip-omoha">Contacts</NavLink>
         <NavLink href="https://medium.com/@philipomoha">Articles</NavLink>
       </Nav>
