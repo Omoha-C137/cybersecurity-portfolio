@@ -78,6 +78,7 @@ const MainContent = styled.main`
   align-items: center;
   z-index: 1;
   position: relative;
+  margin-bottom: 60px;
 `;
 
 const Section = styled.section`
@@ -156,7 +157,7 @@ function App() {
             <h2>Hi, I'm Philip Omoha.</h2>
             <p>A Cyber Security Engineer & Web Developer.</p>
             
-            <p>I use AI.</p>
+            <p>I Work with AI.</p>
             
             <p>Email Address: philipomoha@gmail.com</p>
             <p>My Twitter handle is: @philip_omoha.</p>
