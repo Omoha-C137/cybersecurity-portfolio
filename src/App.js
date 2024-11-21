@@ -153,14 +153,17 @@ function App() {
         <Section id="about" style={{ width: '80%', maxWidth: '800px', margin: '0 auto' }}>
           <Image src="/philip.jpg" alt="Portrait" />
           <div>
-            <pre>philip@omoha:~$ sudo omoha</pre>
+             <pre>
+              <span style={{ color: 'green' }}>philip@omoha</span>:~$ sudo omoha
+            </pre>
+            
             <h2>Hi, I'm Philip Omoha.</h2>
             <p>A Cyber Security Engineer & Web Developer.</p>
             
             <p>I Work with AI.</p>
             
-            <p>Email Address: philipomoha@gmail.com</p>
-            <p>My Twitter handle is: @philip_omoha.</p>
+            <p>Email Address: <a href="mailto:philipomoha@gmail.com" style={{ textDecoration: 'none', color: 'inherit' }}>philipomoha@gmail.com</a></p>
+            <p>My Twitter handle is: <a href="https://twitter.com/philip_omoha" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: 'blue' }}>@philip_omoha</a>.</p>
             
             <p>More about me can be found <a href="https://github.com/Omoha-C137">here.</a></p>
           </div>
