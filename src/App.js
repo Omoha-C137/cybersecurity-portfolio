@@ -6,7 +6,7 @@ const AppContainer = styled.div`
   overflow: hidden;
   min-height: 100vh;
   color: #fff;
-  font-family: Arial, sans-serif;
+  font-family: courier, monospace;
   padding: 0 20px
 `;
 
@@ -162,8 +162,8 @@ function App() {
             
             <p>I Work with AI.</p>
             
-            <p>Email Address: <a href="mailto:philipomoha@gmail.com" style={{ textDecoration: 'none', color: 'inherit' }}>philipomoha@gmail.com</a></p>
-            <p>My Twitter handle is: <a href="https://twitter.com/philip_omoha" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: 'blue' }}>@philip_omoha</a>.</p>
+            <p>Email Address: <a href="mailto:philipomoha@gmail.com" style={{ textDecoration: 'none', color: '#00bbcc' }}>philipomoha@gmail.com</a></p>
+            <p>My Twitter handle is: <a href="https://twitter.com/philip_omoha" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: '#0bc' }}>@philip_omoha</a>.</p>
             
             <p>More about me can be found <a href="https://github.com/Omoha-C137">here.</a></p>
           </div>
