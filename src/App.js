@@ -158,7 +158,7 @@ function App() {
             </pre>
             
             <h2>Hi, I'm Philip Omoha.</h2>
-            <p>A Cyber Security Engineer & Web Developer.</p>
+            <p>A Cyber Security Analyst & Software Engineer.</p>
             
             <p>I Work with AI.</p>
             
